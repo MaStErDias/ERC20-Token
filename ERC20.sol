@@ -52,7 +52,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         constructor() {
         _name = "Master Dias Token";
         _symbol = "MDT";
-        _totalSupply = 10000000000000000;
+        _totalSupply = 1000000000;
         _balances[msg.sender] = 1000000000;
     }
 
